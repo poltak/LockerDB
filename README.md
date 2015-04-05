@@ -1,2 +1,3 @@
-# PoltakDB
-Experimental NoSQL database
+# poltak-db
+
+An experimental NoSQL database.

@@ -15,14 +15,18 @@ based on the metaphors of "lockers", "bags", and "items".
 
 The general idea is:
 
-> Items are stored in bags which are stored in lockers.
+> Items are stored in bags, which are stored in lockers.
+
+or viewing it the other way:
+
+> Lockers have many bags, which have many items.
 
 ### Lockers
 
 Lockers are essentially the overall storage unit of the database. They may contain
-many different bags, but a single bag cannot only be stored in a single lockers.
+many different bags, but a single bag can only be stored in a single locker.
 
-Note that lockers are aware of the bags that it contains, however the items in
+Note that lockers are aware of all the bags that it contains, however the items in
 which that bag stores are abstracted away from the concern of the locker.
 
 You generally use only one bag at a time, while the rest are stored in a locker.
@@ -39,7 +43,7 @@ Bags may contain many different items, however a given item can only reside in
 any single bag.
 
 Whichever current bag you are using will provide standard operations to modify
-and manipulate the items which are currently stored inside the bag.
+and manipulate the items which are currently stored inside that bag.
 
 ### Items
 
@@ -51,5 +55,5 @@ Keys are any given [Java String type](https://docs.oracle.com/javase/8/docs/api/
 while the values may be any valid [primitive Java data
 	type](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html).
 
-Items may be added and removed through interaction with your current bag.
+Items may be added, removed, and manipulated through interaction with your current bag.
 

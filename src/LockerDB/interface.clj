@@ -1,4 +1,4 @@
-(ns PoltakDB.interface
+(ns LockerDB.interface
   (:gen-class))
 
 (defn insert

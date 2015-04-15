@@ -1,3 +1,5 @@
-# poltak-db
+# LockerDB
 
-An experimental NoSQL database.
+An experimental key-value store NoSQL database.
+
+

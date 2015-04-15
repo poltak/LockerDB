@@ -1,4 +1,4 @@
-(ns PoltakDB.bag
+(ns LockerDB.bag
   (:gen-class))
 
 (defn openBag

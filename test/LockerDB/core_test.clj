@@ -1,6 +1,6 @@
-(ns poltak-db.core-test
+(ns LockerDB.core-test
   (:require [clojure.test :refer :all]
-            [poltak-db.core :refer :all]))
+            [LockerDB.core :refer :all]))
 
 (deftest a-test
   (testing "FIXME, I fail."

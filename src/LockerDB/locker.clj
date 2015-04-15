@@ -1,4 +1,4 @@
-(ns PoltakDB.locker
+(ns LockerDB.locker
   (:gen-class))
 
 "Initialises a new locker for bag storage."
